@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) {
 
   char arr[100];
-  fgets(arr, 100, stdin);
+  gets(arr);
   int len = strlen(arr);
   for (int i = 0; i < len; i++) {
     for (int j = 0; j < len - i - 1; j++) {
